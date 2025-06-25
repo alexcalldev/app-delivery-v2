@@ -1,0 +1,31 @@
+{
+  "name": "appdelivery",
+  "version": "1.0.0",
+  "description": "backend delivery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fluuter",
+    "delivery",
+    "nodejs"
+  ],
+  "author": "acalles",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mercadopago": "^2.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "4.8.1"
+  }
+}
